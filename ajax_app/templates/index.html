@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roll Dice!</title>
+</head>
+<body>
+    <button id="roll-button"
+            type="button">
+        Roll dice!
+    </button>
+    <p id="self-roll-display"></p>
+    <p id="cpu-roll-display"></p>
+    <p id="winner-text"></p>
+    <p>Number of wins: <span id="wins-display">0</span></p>
+    <p>Number of losses: <span id="losses-display">0</span></p>
+    <script src="{{url_for('static', filename='js/roll_dice.js')}}"></script>
+</body>
+</html>
